@@ -13,8 +13,7 @@ This project is a challenge of gesture rockgnition for the course : "Multimodal 
 Use the (untracked) directory "./data/" to store the data.
 
 ## OPEGRA
-This project is evaluated by OPEGRA
-[Downlad page](https://project.eia-fr.ch/chairgest/Pages/Opegra/Download.aspx)
+This project is evaluated by OPEGRA : [Downlad page](https://project.eia-fr.ch/chairgest/Pages/Opegra/Download.aspx)
 
 ## Contributors
 * Jennifer Kembo-Sungu : HMM
