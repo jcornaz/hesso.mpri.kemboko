@@ -1,0 +1,12 @@
+*.pdf
+*.*swp
+*.*~
+.*
+!.gitignore
+
+*.exe
+*.bin
+*.dll
+
+data/
+*.mat
