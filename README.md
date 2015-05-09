@@ -10,7 +10,22 @@ This project is a challenge of gesture rockgnition for the course : "Multimodal 
 * [training set for C#](http://simon.ruffieux.home.hefr.ch/datasets/Dataset_segmented.zip)
 * [training set for matlab](http://simon.ruffieux.home.hefr.ch/datasets/Dataset_segmented.mat)
 
-Use the (untracked) directory "./data/" to store the data.
+## Project structure
+The project folder structure is the following :
+
+```
+.
+├── data
+│   └── Dataset_segmented.mat
+└── src
+	├── ann
+	│   └── > ANN specifics sources
+	├── hmm
+	│   └── > HMM specifics sources
+	├── svm
+	│   └── > SVM specifics sources
+	└── > Common sources
+```
 
 ## OPEGRA
 This project is evaluated by OPEGRA : [Downlad page](https://project.eia-fr.ch/chairgest/Pages/Opegra/Download.aspx)
