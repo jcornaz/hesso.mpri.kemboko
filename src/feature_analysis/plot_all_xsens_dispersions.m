@@ -1,4 +1,4 @@
-function [] = plot_all_xsens_dispersions( occurrences, xsensid )
+function [] = plot_all_xsens_dispersions( occurences, xsensid )
 % Plot all the features disperions for a given xsensor (except the
 % barometer feature)
 
@@ -6,7 +6,7 @@ function [] = plot_all_xsens_dispersions( occurrences, xsensid )
     
     for i = 1:16
 
-        % avoid the barometer feature (Obviously completely useless)
+        % Avoid the barometer feature (obviously useless)
         if i >= 13
             j = i + 1;
         else
@@ -14,7 +14,7 @@ function [] = plot_all_xsens_dispersions( occurrences, xsensid )
         end
 
         subplot( 4, 4, i );
-        plot_dispersions( occurrences, 1, (xsensid - 1) * 17 + j );
+        plot_dispersions( occurences, 1, (xsensid - 1) * 17 + j );
         title( titles{i} );
     end
 end
