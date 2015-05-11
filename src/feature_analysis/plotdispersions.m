@@ -1,5 +1,5 @@
 function [res] = plotdispersions( occurrences, sensorid, featureid )
-%Analyse the pertinance of a given feature and plot usefull graphes
+%Plot the feature dispersion for each classes
 
     res = [];
     
