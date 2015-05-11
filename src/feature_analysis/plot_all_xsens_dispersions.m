@@ -1,9 +1,12 @@
 function [] = plot_all_xsens_dispersions( occurrences, xsensid )
+% Plot all the features disperions for a given xsensor (except the
+% barometer feature)
 
     titles = {'XAcc', 'YAcc', 'ZAcc', 'YawSpeed', 'PitchSpeed', 'RollSpeed', 'Yaw', 'Pitch', 'Roll', 'XMag', 'YMag', 'ZMag', 'QuatX', 'QuatY', 'QuatZ', 'QuatW'};
     
     for i = 1:16
 
+        % avoid the barometer feature (Obviously completely useless)
         if i >= 13
             j = i + 1;
         else
