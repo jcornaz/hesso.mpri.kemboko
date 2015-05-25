@@ -14,7 +14,7 @@ function [] = plot_all_xsens_dispersions( occurences, xsensid )
         end
 
         subplot( 4, 4, i );
-        plot_dispersions( occurences, 1, (xsensid - 1) * 17 + j );
+        plot_dispersions( occurences, 1, (xsensid - 1) * 17 + j, @fourierTransform );
         title( titles{i} );
     end
 end
