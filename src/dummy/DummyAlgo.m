@@ -8,8 +8,8 @@ clearvars;
 clc;
 
 % --- /!\ CONSTANT /!\ --- 
-PATH_TRAINSET_FILE      = 'C:\LocalPathToDataset\Dataset_segmented.mat'; %the path to the dataset
-PATH_TESTSET_FILE      = 'C:\LocalPathToDataset\Dataset_segmented.mat'; %for testing purposes only (Normally you should split your Trainset (cross-validation, etc))
+PATH_TRAINSET_FILE      = './data/Dataset_segmented.mat'; %the path to the dataset
+PATH_TESTSET_FILE      = './data/Dataset_segmented.mat'; %for testing purposes only (Normally you should split your Trainset (cross-validation, etc))
 
 % --- /!\ OPTIONS /!\ --- 
 % Choose according to what you want to do
