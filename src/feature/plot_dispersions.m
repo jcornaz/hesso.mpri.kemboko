@@ -8,7 +8,10 @@ function [res] = plot_dispersions( occurences, sensorid, featureid, ftrans )
     res = [];
     
     for i = 1: length( occurences )
-        obs = ftrans( occurences(i).sensor(sensorid).observation(:, featureid) );
+        obs = occurences(i).sensor(sensorid).observation;
+        if length(obs) > 1
+            obs = ftrans( obs(:, featureid) );
+        end
         nbl = length( obs );
         new = nan( [nbl,11] );
         new(:, occurences(i).label + 1) = obs;
