@@ -20,3 +20,4 @@ occurrences = dataset.Dataset.Data.occurence;
 
 % Prepare dataset
 [inputs, outputs] = prepare_dataset(occurrences,flist,@fourierTransform);
+outputs = to_bool_matrix(outputs);
