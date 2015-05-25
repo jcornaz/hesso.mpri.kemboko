@@ -1,6 +1,6 @@
 function [labelids] = to_labelid_vector(matrix,firstid)
 
-    if nargin < 2 % by default use the mean transformation
+    if nargin < 2 % by default use 0 as first id
         firstid = 0;
     end
     
