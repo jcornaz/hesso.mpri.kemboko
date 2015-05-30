@@ -1,5 +1,5 @@
 # Kemboco
-This project is a challenge of gesture rockgnition for the course : "Multimodal Processing Rocognition and Interaction" of the HES-SO university (Switzerland).
+This project is a challenge of gesture recognition for the course : "Multimodal Processing Rocognition and Interaction" of the HES-SO university (Switzerland).
 
 ## Project details
 * [Assignement](http://moodle.msengineering.ch/mod/resource/view.php?id=24491)
