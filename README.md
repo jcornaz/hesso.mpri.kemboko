@@ -7,7 +7,6 @@ This project is a challenge of gesture rockgnition for the course : "Multimodal 
 * [Concerned courses](http://moodle.msengineering.ch/course/view.php?id=324)
 
 ## Data
-* [training set for C#](http://simon.ruffieux.home.hefr.ch/datasets/Dataset_segmented.zip)
 * [training set for matlab](http://simon.ruffieux.home.hefr.ch/datasets/Dataset_segmented.mat)
 
 ## Project structure
@@ -20,8 +19,6 @@ The project folder structure is the following :
 └── src
 	├── ann
 	│   └── > ANN specifics sources
-	├── hmm
-	│   └── > HMM specifics sources
 	├── svm
 	│   └── > SVM specifics sources
 	└── > Common sources
