@@ -1,6 +1,10 @@
-function [inputs,outputs] = prepare_dataset(occurences,flist,ftrans)
+function [inputs,outputs] = prepare_dataset(occurences,flist,withOutputs,ftrans)
 
-    if nargin < 3 % by default use the mean transformation
+    if nargin < 3 % by default don't gather the expected outputs
+        withOutputs = false;
+    end
+    
+    if nargin < 4 % by default use the mean transformation
         ftrans = @(x)(mean(x));
     end
     
@@ -8,7 +12,11 @@ function [inputs,outputs] = prepare_dataset(occurences,flist,ftrans)
     [nbf,~] = size(flist);
     
     inputs = [];
-    outputs = zeros(nbo,1);
+    if withOutputs
+        outputs = zeros(nbo,1);
+    else
+        outputs = nan(nbo,1);
+    end
     newLine = zeros(1,nbf);
     
     for i = 1:nbo
@@ -21,6 +29,9 @@ function [inputs,outputs] = prepare_dataset(occurences,flist,ftrans)
             end
         end
         inputs = [inputs;newLine];
-        outputs(i) = occurence.label;
+        
+        if withOutputs
+            outputs(i) = occurence.label;
+        end
     end
 end

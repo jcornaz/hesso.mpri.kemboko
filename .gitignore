@@ -9,4 +9,5 @@
 *.dll
 
 data/
+opegra/
 *.mat
