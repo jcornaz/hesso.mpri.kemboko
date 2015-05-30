@@ -1,0 +1,12 @@
+<AlgorithmInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/DataTypes_Lib">
+  <Author>Jonathan Cornaz</Author>
+  <Description>Gesture recognition using ANN</Description>
+  <Name>Kemboco ANN</Name>
+  <ProgrammationLanguage>Matlab</ProgrammationLanguage>
+  <RunFile>run.m</RunFile>
+  <SupportedDataTypes>
+    <DataType>xsens</DataType>
+  </SupportedDataTypes>
+  <SupportedSequenceType>Segmented</SupportedSequenceType>
+  <Visibility>Public</Visibility>
+</AlgorithmInfo>
