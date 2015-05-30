@@ -3,7 +3,7 @@
   <Description>Gesture recognition using ANN</Description>
   <Name>Kemboco ANN</Name>
   <ProgrammationLanguage>Matlab</ProgrammationLanguage>
-  <RunFile>run.m</RunFile>
+  <RunFile>ann_test.m</RunFile>
   <SupportedDataTypes>
     <DataType>xsens</DataType>
   </SupportedDataTypes>
