@@ -19,7 +19,7 @@ function [train_inputs, train_outputs, test_inputs, test_outputs] = split_datase
     end
     
     for i = (nbtests+1):nbsamples
-        index = rand(1,i);
+        index = floor(rand() * nbsamples) + 1;
         if index <= nbtests
             train_inputs(i-nbtests,:) = test_inputs(index,:);
             train_outputs(i-nbtests,:) = test_outputs(index,:);
