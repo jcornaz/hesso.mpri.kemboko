@@ -1,13 +1,18 @@
+# Common
+*.exe
+*.bin
+*.dll
 *.pdf
 *.*swp
+*.zip
 *.*~
 .*
 !.gitignore
 
-*.exe
-*.bin
-*.dll
-
+# Data
 data/
-opegra/
 *.mat
+
+# Opegra
+opegra/
+resul	ts.txt
