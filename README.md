@@ -31,6 +31,5 @@ The project folder structure is the following :
 This project is evaluated by OPEGRA : [Downlad page](https://project.eia-fr.ch/chairgest/Pages/Opegra/Download.aspx)
 
 ## Contributors
-* Jennifer Kembo-Sungu : HMM
 * Pauline Boukhaled : SVM
 * Jonathan Cornaz : ANN
