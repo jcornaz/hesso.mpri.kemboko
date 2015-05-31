@@ -6,6 +6,6 @@ function [train_inputs, train_outputs, test_inputs, test_outputs] = prepare_trai
     end
 
     % Prepare dataset
-    [inputs, outputs] = prepare_dataset(occurences,flist,true,@fourierTransform);    
+    [inputs, outputs] = prepare_dataset(occurences,flist,true);    
     [train_inputs, train_outputs, test_inputs, test_outputs] = split_dataset( inputs, outputs, test_ratio );
 end

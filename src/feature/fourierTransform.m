@@ -3,6 +3,5 @@ function [ res ] = fourierTransform( vector )
 % argument
 
     tmp = abs(fft(vector));
-    res = [mean(tmp),std(tmp)];
+    res = mean(tmp);
 end
-
