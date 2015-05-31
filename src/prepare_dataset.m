@@ -26,9 +26,9 @@ function [inputs,outputs] = prepare_dataset(occurences,flist,withOutputs)
             if numel(occurence.sensor(flist(j,1)).observation) >= flist(j,2)
                 feats = abs(fft(occurence.sensor(flist(j,1)).observation(:,flist(j,2))));
                 if flist(j,3) == 0
-                    feat = std(feats);
+                    feat = nanstd(feats);
                 else
-                    feat = mean(feats);
+                    feat = nanmean(feats);
                 end
             else
                 feat = nan;

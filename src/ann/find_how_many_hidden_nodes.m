@@ -3,8 +3,8 @@ function [nodes, best_nb_nodes, best_score, best_net] = find_how_many_hidden_nod
     best_net = [];
     best_nb_nodes = nan;
     
-    MIN_NODES = 2;
-    MAX_NODES = 20;
+    MIN_NODES = 1;
+    MAX_NODES = 30;
     NB_TRY = 5;
     
     scores = zeros([1,NB_TRY]);
@@ -31,8 +31,9 @@ function [nodes, best_nb_nodes, best_score, best_net] = find_how_many_hidden_nod
         
         row = i-MIN_NODES+1;
         nodes(row,1) = i;
-        nodes(row,2) = mean(scores);
-        nodes(row,3) = max(scores);
+        nodes(row,2) = nanmean(scores);
+        nodes(row,3) = nanmedian(scores);
+        nodes(row,4) = nanmax(scores);
     end
 end
 
