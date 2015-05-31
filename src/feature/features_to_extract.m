@@ -1,6 +1,7 @@
 function [flist] = features_to_extract()
 % Return the list of the feature to use
 
+%{
     % Accelerometers features to use
     shoulder = [];
     elbow = [1:3,5,6];
@@ -16,5 +17,9 @@ function [flist] = features_to_extract()
 
     % Features list to use
     flist = [xsens;kinect];
+%}
+
+    flist = [18,21,42,48,51,59,60,61,65,66,44,63,37,53,1,38,50,55,19];
+    flist = [ones(length(flist),1),flist'];
 end
 
