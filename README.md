@@ -1,6 +1,10 @@
 # Kemboco
 This project is a challenge of gesture recognition for the course : "Multimodal Processing Rocognition and Interaction" of the HES-SO university (Switzerland).
 
+## Rapports
+* [Presentation](https://docs.google.com/presentation/d/1GIcee3LXgDzNoK_lGk_emQHfOJaC3zJfKYu16Z9vqAo/edit?usp=sharing)
+* [Report](https://docs.google.com/document/d/1TkyG2TjQdEdrVJDQIbB0yohUTQnpCZ6mKRBMZu6-K5w/edit?usp=sharing)
+
 ## Project details
 * [Assignement](http://moodle.msengineering.ch/mod/resource/view.php?id=24491)
 * [Practical informations](http://moodle.msengineering.ch/mod/resource/view.php?id=24490)
