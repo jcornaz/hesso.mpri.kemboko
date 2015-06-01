@@ -12,6 +12,7 @@
 # Data
 data/
 *.mat
+!nets.mat
 
 # Opegra
 opegra/

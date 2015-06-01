@@ -2,8 +2,9 @@ function [predicted] = ann_test( testset_path )
 
     dataset = load(testset_path);
     occurences = dataset.Dataset.Data.occurence;
+    
     flist = features_to_extract();
-    [inputs,~] = prepare_dataset(occurences,flist,false,@fourierTransform);
+    [inputs,~] = prepare_dataset(occurences,flist,false);
     
     predicted = ann_predict(inputs);
     
