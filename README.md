@@ -7,8 +7,8 @@ This project is a challenge of gesture recognition for the course : "Multimodal 
 * [Concerned courses](http://moodle.msengineering.ch/course/view.php?id=324)
 
 ### Results report
-* [Presentation](https://docs.google.com/presentation/d/1GIcee3LXgDzNoK_lGk_emQHfOJaC3zJfKYu16Z9vqAo/edit?usp=sharing)
-* [Report](https://docs.google.com/document/d/1TkyG2TjQdEdrVJDQIbB0yohUTQnpCZ6mKRBMZu6-K5w/edit?usp=sharing)
+* [Presentation](https://github.com/cornazj/MPRI_Kemboco/raw/master/doc/reports/Presentation.pdf)
+* [Report](https://github.com/cornazj/MPRI_Kemboco/raw/master/doc/reports/Report.pdf)
 
 ## Data
 * [training set for matlab](http://simon.ruffieux.home.hefr.ch/datasets/Dataset_segmented.mat)

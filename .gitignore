@@ -20,4 +20,4 @@ resul	ts.txt
 # Exceptions
 !.gitignore
 !nets.mat
-!reports/*.pdf
+!doc/reports/*.pdf
