@@ -3,17 +3,21 @@
 *.bin
 *.dll
 *.pdf
+*.docx
 *.*swp
 *.zip
 *.*~
 .*
-!.gitignore
 
 # Data
 data/
 *.mat
-!nets.mat
 
 # Opegra
 opegra/
 resul	ts.txt
+
+# Exceptions
+!.gitignore
+!nets.mat
+!reports/*.pdf
