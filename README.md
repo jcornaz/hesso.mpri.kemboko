@@ -1,17 +1,18 @@
 # Kemboco
 This project is a challenge of gesture recognition for the course : "Multimodal Processing Recognition and Interaction" of the HES-SO university (Switzerland).
 
-## Project details
-* [Assignement](http://moodle.msengineering.ch/mod/resource/view.php?id=24491)
-* [Practical informations](http://moodle.msengineering.ch/mod/resource/view.php?id=24490)
-* [Concerned courses](http://moodle.msengineering.ch/course/view.php?id=324)
+## Status
+This was a school project. It is no longer maintained and no support will ever be provided.
+
+The project is available to anyone interested by studying, modifing or using it. However, be aware that it might contains bugs or errors, and some resources might be missing (data or credentials).
+
+Please note that the language and technologies might have been new for the contributors when developping the project. Time frame and project requirement are also very different than most *real-world* project. 
+
+**Coding style is not representative of the contributors' current style**
 
 ### Results report
-* [Presentation](https://github.com/cornazj/MPRI_Kemboco/raw/master/doc/reports/Presentation.pdf)
-* [Report](https://github.com/cornazj/MPRI_Kemboco/raw/master/doc/reports/Report.pdf)
-
-## Data
-* [training set for matlab](http://simon.ruffieux.home.hefr.ch/datasets/Dataset_segmented.mat)
+* [Presentation](doc/reports/Presentation.pdf)
+* [Report](doc/reports/Report.pdf)
 
 ## Project structure
 The project folder structure is the following :
@@ -32,9 +33,6 @@ The project folder structure is the following :
 	└── > Common sources
 ```
 
-## OPEGRA
-This project is evaluated by OPEGRA : [Downlad page](https://project.eia-fr.ch/chairgest/Pages/Opegra/Download.aspx)
-
 ## Contributors
-* Pauline Boukhaled : SVM (CSHarp)
+* Pauline Boukhaled : SVM (C#)
 * Jonathan Cornaz : ANN (Matlab)
